@@ -1,10 +1,9 @@
 <h3>
     Unity-AI-Horror-Game
   </h3>
-  ![AI Game](https://github.com/shail-git/unity-ai-horror-game/assets/109361303/bf91efbe-c004-4374-9fde-aa3cb770eaad)
-
 <p>
-    Contributors:
+<img src="AI-Game.png" width="500" height="600"
+Contributors:
     <li>Rances Colon</li>
     <li>Shail Shah</li>
     <li>Vinayak Rajan</li>
