@@ -1,8 +1,8 @@
-<h3>
+<p>
+<img src="AI Game.png" width="500" height="600"<br><br>
+    <h3>
     Unity-AI-Horror-Game
   </h3>
-<p>
-<img src="AI-Game.png" width="500" height="600"
 Contributors:
     <li>Rances Colon</li>
     <li>Shail Shah</li>
