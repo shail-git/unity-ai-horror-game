@@ -1,7 +1,8 @@
 <h3>
     Unity-AI-Horror-Game
   </h3>
-  ![AI Game](https://github.com/shail-git/unity-ai-horror-game/assets/109361303/7a6498ac-ccea-4328-978b-a1ad55bede54)
+  ![AI Game](https://github.com/shail-git/unity-ai-horror-game/assets/109361303/bf91efbe-c004-4374-9fde-aa3cb770eaad)
+
 <p>
     Contributors:
     <li>Rances Colon</li>
