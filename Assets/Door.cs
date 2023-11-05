@@ -5,7 +5,7 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     public GameObject door_closed, door_opened;
-    public AudioSource open, close;
+    public AudioClip open, close;
     public bool opened;
 
     void OnTriggerStay(Collider other)
