@@ -2540,8 +2540,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door_closed: {fileID: 2056277305}
   door_opened: {fileID: 528425846}
-  open: {fileID: 0}
-  close: {fileID: 0}
+  open: {fileID: 8300000, guid: 643dbaf54138b3440a6ef2571666676b, type: 3}
+  close: {fileID: 8300000, guid: d77e123bb7160794b847ea76d3872737, type: 3}
   opened: 0
 --- !u!54 &1910287124
 Rigidbody:

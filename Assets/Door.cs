@@ -6,7 +6,13 @@ public class Door : MonoBehaviour
 {
     public GameObject door_closed, door_opened;
     public AudioClip open, close;
+    private AudioSource audioSource;
     public bool opened;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>(); // Make sure your GameObject has an AudioSource component attached.
+    }
 
     void OnTriggerStay(Collider other)
     {
@@ -19,7 +25,8 @@ public class Door : MonoBehaviour
                     door_closed.SetActive(false);
                     door_opened.SetActive(true);
                     // intText.SetActive(false);
-                    //open.Play()
+                    audioSource.clip = open;
+                    audioSource.Play();
                     StartCoroutine(repeat());
                     opened = true;
                 }
@@ -41,6 +48,7 @@ public class Door : MonoBehaviour
         opened = false;
         door_closed.SetActive(true);
         door_opened.SetActive(false);
-        //close.Play()
+        audioSource.clip = close;
+        audioSource.Play();
     }
 }
